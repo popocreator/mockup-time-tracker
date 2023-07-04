@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>대시보드</title>
+	</head>
+	<body>
+		<h1>대시보드</h1>
+		<hr />
+		<label for="ratio">점수비율</label>
+		<input type="number" value="2" min="0.5" id="ratio" />
+		<hr />
+		<label for="bufferPercent">버퍼(%)</label>
+		<input type="number" value="30" min="25" max="60" id="bufferPercent" />
+		<p>컨디션 좋음(30%)/중간(50%)/나쁨(60%)</p>
+		<hr />
+		<input type="date" id="startDate" value="2023-07-05" />
+		<input type="date" id="endDate" value="2023-07-10" />
+		<p>
+			<strong>[2023년 7월 5일]</strong>부터
+			<strong>[2023년 7월 10일]</strong>까지 가용시간은
+			<strong>[12시간/6sp]</strong>입니다.
+		</p>
+		<p>현재 남은 가용시간은 <strong>[1시간/2sp]</strong>입니다.</p>
+	</body>
+</html>
